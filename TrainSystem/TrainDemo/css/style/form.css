@@ -1,0 +1,65 @@
+﻿body {
+    font-family: 微软雅黑;
+}
+
+.required:after {
+    content: "* ";
+    color: red;
+    font-size: 16px;
+}
+
+.not-required:after {
+    content: '* ';
+    color: transparent;
+    font-size: 16px;
+}
+
+
+.required {
+    width: 5px;
+}
+
+.not-required {
+    width: 5px;
+}
+
+
+.container > form span {
+    white-space: pre;
+}
+
+form {
+    padding: 50px 200px;
+}
+
+    form > .input-group {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+        form > .input-group > .input-group-addon {
+            background: white;
+        }
+
+        form > .input-group > .form-control {
+            height: 50px;
+        }
+
+
+        
+    form > .button-group  {
+        padding-top:40px;
+    }
+    form > .button-group > button {
+        padding:15px 40px;
+        background:#ef2d35;
+        border:0px;
+        color:white;
+        width:100%;
+        font-size:18px;
+        font-family:宋体;
+        -moz-box-shadow:1px 1px 1px #888888;
+        -webkit-box-shadow:1px 1px 1px #888888;
+        -ms-box-shadow:1px 1px 1px #888888;
+        box-shadow:1px 1px 1px #888888;
+    }
