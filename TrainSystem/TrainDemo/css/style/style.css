@@ -48,10 +48,11 @@ h1, h2, h3, h4 {
 
 #wrap > .container {
     margin-top: 20px;
+    padding:0px 60px;
 }
 
 #wrap > .container-fluid {
-    padding:0px;
+    padding:0px 0px 20px 0px;
 }
 
 .footer a {
@@ -174,7 +175,7 @@ h1 {
     padding-bottom:10px;
 }
 
-.left-block > .module-blcok > img {
+.left-block > .module-blcok > a > img {
     width:100%;
     height:100px;
 }
@@ -204,3 +205,21 @@ h1 {
     padding-left:15px;
 }
 
+.glyphicon {
+    margin-right:10px;
+}
+
+.pagination-block {
+    text-align:center;
+}
+
+    .pagination-block input {
+        width: 60px;
+        border: 0px;
+        height: 100%;
+        padding: 8px;
+        float: left;
+        border: 1px solid #ddd;
+        position: relative;
+        line-height: 1.4285;
+    }
