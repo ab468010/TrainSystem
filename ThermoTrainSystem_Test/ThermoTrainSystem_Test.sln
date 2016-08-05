@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThermoTrainSystem_Test", "ThermoTrainSystem_Test\ThermoTrainSystem_Test.csproj", "{B9971C23-C7A4-4498-9CAF-03ECE18792BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThermoTrainSystem_Test.Tests", "ThermoTrainSystem_Test.Tests\ThermoTrainSystem_Test.Tests.csproj", "{0550EC00-9909-4856-B833-28C72E0702A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9971C23-C7A4-4498-9CAF-03ECE18792BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9971C23-C7A4-4498-9CAF-03ECE18792BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9971C23-C7A4-4498-9CAF-03ECE18792BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9971C23-C7A4-4498-9CAF-03ECE18792BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0550EC00-9909-4856-B833-28C72E0702A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0550EC00-9909-4856-B833-28C72E0702A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0550EC00-9909-4856-B833-28C72E0702A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0550EC00-9909-4856-B833-28C72E0702A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
