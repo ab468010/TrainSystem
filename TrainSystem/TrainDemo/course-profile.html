@@ -18,6 +18,14 @@
     <title>课程列表</title>
 </head>
 <body>
+    <div style="    background: url(images/tobottom.png) no-repeat left top;
+    width: 30px;
+    height: 133px;
+    z-index: 100000;
+    right: 50px;
+    top: 200px;
+    position: fixed;
+    cursor: pointer;" onclick="toButtom();"></div>
 
     <div id="wrap">
         <header class="mastered">
@@ -27,8 +35,12 @@
                         <h4><a>
                             <img src="images/logo-cropped.gif" style="vertical-align: bottom" /></a><span style="margin-left: 20px; vertical-align: bottom; font: small">赛默飞中国技术培训中心</span></h4>
                     </div>
-                    <div class="col-sm-2 col-sm-offset-4">
-                        <img src="images/Tc.jpg" style="width:80px;" />
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <div style="float:left;width:300px;padding-top:40px">
+                            <span style="font-size:12px"><span class="glyphicon glyphicon-earphone" style="color:#bdbdbd;font-size:14px"></span> 400-650-5118(手机拨打)/800-810-5118(座机拨打)</span> 
+                            <span style="font-size:12px"><span class="glyphicon glyphicon-envelope" style="color:#bdbdbd;font-size:14px"></span> traininng.china@thermofisher.com</span>
+                        </div>
+                        <div style="float:left;width:40px"><img src="images/Tc.jpg" style="width:80px;" /></div>
                     </div>
                 </div>
             </div>
@@ -128,7 +140,7 @@
                     <a href="course-list-3.html"><img src="images/L4.png" /></a>
                 </div>
                 <div class="module-blcok">
-                    <a href="support-1.html"><img src="images/L5.png" /></a>
+                    <a href="support-5.html"><img src="images/L5.png" /></a>
                 </div>
             </div>
             <div class="col-lg-9 right-block">
@@ -478,7 +490,8 @@
                             <caption><strong>日程安排</strong></caption>
                             <thead>
                                 <tr>
-                                    <td ><strong>培训地点</strong></td>
+                                    <td><strong>行业划分</strong></td>
+                                    <td><strong>培训地点</strong></td>
                                     <td><strong>培训时间</strong></td>
                                     <td><strong>剩余座位数</strong></td>
                                     <td><strong>在线报名</strong></td>
@@ -486,6 +499,7 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>医疗</td>
                                     <td>广州汇标</td>
                                     <td>2016-07-12 ~ 2016-07-15</td>
                                     <td>10</td>
@@ -505,6 +519,7 @@
     <script src="js/lib/jquery-1.12.3.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script src="js/lib/bootstrap-select.js"></script>
+    <script src="js/control.js"></script>
 
     <script>
         $('.selectpicker').selectpicker();

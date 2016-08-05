@@ -1,5 +1,19 @@
 ﻿body, .page-header {
     width: auto;
+    font-family:"Helvetica Neue","Helvetica","Roboto","Segoe UI","Arial","Malgun Gothic","sans-serif";
+    font-size:13px;
+    line-height:22px;
+}
+
+.to-buttom {
+    background: url(images/tobottom.png) no-repeat left top;
+    width: 30px;
+    height: 133px;
+    z-index: 100000;
+    right: 50px;
+    top: 200px;
+    position: fixed;
+    cursor: pointer;
 }
 
 html,
@@ -101,6 +115,9 @@ h1 {
     background: #f3f3f3;
     border: 1px solid #c0bebf;
     margin-top: 15px;
+}
+.nav > li:hover .dropdown-menu {
+    display: block;
 }
 
     #nav.affix {
