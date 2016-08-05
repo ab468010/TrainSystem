@@ -26,6 +26,14 @@ namespace TrainSystem
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+
+
+            bundles.Add(new ScriptBundle("~/lib/jquery").Include("~/js/lib/jquery-min.js"));
+            bundles.Add(new ScriptBundle("~/lib/bootstrap").Include("~/js/lib/bootstrap.min.js"));
+            bundles.Add(new ScriptBundle("~/lib/css").Include("~/css/lib/bootstrap.min.css"));
+            bundles.Add(new ScriptBundle("~/style/css").Include("~/css/style/style.css"));
+
         }
     }
 }

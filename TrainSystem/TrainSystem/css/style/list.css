@@ -1,0 +1,9 @@
+﻿.table thead .glyphicon-sort {
+    float:right;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.table thead tr td {
+}
+

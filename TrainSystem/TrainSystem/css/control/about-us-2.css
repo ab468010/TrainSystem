@@ -1,0 +1,39 @@
+﻿body {
+}
+
+.context > .content {
+    background:#f3f3f3;
+}
+
+.addr-list {
+    padding-top: 20px;
+    background: #f3f3f3;
+}
+
+.context > .content ul.list-group > li.list-group-item {
+    background:white;
+    border:0px;
+}
+
+.context > .content ul.list-group > li.list-group-item > a {
+    border-left:4px solid #0776c7;
+    background:#f4f2f3;
+    width:100%;
+    padding:15px 5px;
+    display:block;
+}
+
+.context > .content li.list-group-item > ul > li  {
+    list-style-type:disc;  
+      background:white;
+      font-size:12px;
+
+}
+
+.context > .content li.list-group-item > ul > li > a {
+    text-decoration:none;
+    color:black;
+    padding:5px 0px;
+    display:block;
+    width:100%;
+}
