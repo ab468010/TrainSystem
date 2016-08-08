@@ -6,7 +6,7 @@
 }
 
 .to-buttom {
-    background: url(images/tobottom.png) no-repeat left top;
+    background: url(~/images/tobottom.png) no-repeat left top;
     width: 30px;
     height: 133px;
     z-index: 100000;
