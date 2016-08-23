@@ -1,0 +1,10 @@
+﻿body {
+}
+p {
+    text-indent: 28px; line-height: 28px; font-size: 14px;
+}
+
+.panel-default > div.panel-heading {
+    /*background:#5e89b3;color:white;*/
+
+}

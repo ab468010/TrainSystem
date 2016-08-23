@@ -17,13 +17,13 @@
             height: 210px;
         }
     .show-us > .right-img {
-        width: 735px;
+        width: 815px;
         float: left;
         position: relative;
     }
 
 #carousel-box img {
-    width: 735px;
+    width: 815px;
     height: 210px;
 }
 
@@ -55,7 +55,21 @@
     width: 100%;
     height: auto;
 }
-
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a {
+    margin-bottom:2px;
+    border-bottom:2px solid #98cefe;
+    background:none;
+    color:white;
+}
+.nav-tabs > li > a:hover {
+    background:none  !important;
+    border:none;
+}
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+        border-top:none;
+        border-left:none;
+        border-right:none;
+    }
     .course > .tabs-list {
         text-align: center;
     }
@@ -72,7 +86,7 @@
                 color: white;
                 font: larger;
                 font-size: 16px;
-                padding: 10px 15px !important;
+                padding: 8px 15px !important;
             }
             
 @media (min-width: 240px) {
@@ -120,7 +134,7 @@
 .course > .tabs-list > .nav-tabs > li > a:hover,
 .course > .tabs-list > .nav-tabs > li > a:active,
 .course > .tabs-list > .nav-tabs > li.active > a {
-    color: black !important;
+    color: white !important;
 }
 
 .course > .tab-content > .tab-pane > .row {
@@ -168,26 +182,26 @@
         background: #f3f3f3;
         border-top: 1px solid #bdbdbd;
         border-bottom: 1px solid #bdbdbd;
-        padding:20px 250px;
+        padding:20px 50px;
         margin-top:50px;
     }
 
         .q-link > div > ul {
             list-style-type: none;
-            width:1000px;
+            width:100%;
         }
         
             .q-link > div > ul > li {
                 float:left;
+                width:25%;
             }
 
                 .q-link > div > ul > li > a {
                     display: block;
-                    padding: 20px 50px;
+                    padding: 20px 80px;
                     text-align:center;
                     text-decoration: none;
                     color: #000000;
                     font-size: 14px;
                     font-family: 宋体;
-                    width: 300px;
                 }

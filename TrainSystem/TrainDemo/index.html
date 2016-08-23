@@ -17,7 +17,7 @@
 
     <title>首页</title>
 </head>
-<body>
+<body style="overflow-x:hidden">
 
     <div id="wrap">
         <header class="mastered">
@@ -28,11 +28,12 @@
                             <img src="images/logo-cropped.gif" style="vertical-align: bottom" /></a><span style="margin-left: 20px; vertical-align: bottom; font: small">赛默飞中国技术培训中心</span></h4>
                     </div>
                     <div class="col-sm-4 col-sm-offset-2">
-                        <div style="float:left;width:300px;padding-top:40px">
-                            <span style="font-size:12px"><span class="glyphicon glyphicon-earphone" style="color:#bdbdbd;font-size:14px"></span> 400-650-5118(手机拨打)/800-810-5118(座机拨打)</span> 
-                            <span style="font-size:12px"><span class="glyphicon glyphicon-envelope" style="color:#bdbdbd;font-size:14px"></span> traininng.china@thermofisher.com</span>
+                        <div style="float: left; width: 250px; padding-top: 20px">
+                            <h6><span class="glyphicon glyphicon-earphone" style="color: #bdbdbd; font-size: 14px"></span>400 - 650 - 5118</h6>
+                            <h6><span class="glyphicon glyphicon-envelope" style="color: #bdbdbd; font-size: 14px"></span>traininng.china@thermofisher.com</h6>
                         </div>
-                        <div style="float:left;width:40px"><img src="images/Tc.jpg" style="width:80px;" /></div>
+                        <div style="float: left; width: 40px">
+                            <img src="images/Tc.jpg" style="width: 80px;" /></div>
                     </div>
                 </div>
             </div>
@@ -56,7 +57,9 @@
                             <ul class="dropdown-menu">
                                 <li><a href="course-list.html">进阶培训</a></li>
                                 <li><a href="course-list-2.html">高级培训</a></li>
-                                <li><a href="locale-course.html">现场培训</a></li>
+                                <li><a href="locale-course.html">现场培训</a></li> 
+                                <li><a href="course-list-online.html">远程在线培训</a></li>
+                                <li><a href="course-list-4.html">行业应用培训</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -153,7 +156,7 @@
         <div class="container">
 
             <div class="course-block">
-                <div class="course-filter row">
+                <div class="course-filter row" style="margin-top:-10px;">
                     <div class="col-lg-2">
                         <h4>课程搜索</h4>
                     </div>
@@ -162,25 +165,36 @@
                             <option>液相色谱</option>
                             <option>离子色谱</option>
                             <option>无机元素分析</option>
-                            <option>气象色谱与质谱</option>
+                            <option>气相色谱与质谱</option>
                             <option>样品制备</option>
+
                         </select>
                     </div>
                     <div class="col-lg-3 col-sm-12">
                         <select class="selectpicker">
+                            <option>远程在线培训</option>
+                            <option>行业应用培训</option>
+                            <option>大学生培训</option>
                             <option>进阶培训</option>
                             <option>高级培训</option>
+
                         </select>
                     </div>
 
                     <div class="col-lg-3 col-sm-12">
                         <select class="selectpicker">
+                            <option>成都</option>
+                            <option>广州</option>
+                            <option>昆明</option>
+                            <option>西安</option>
+                            <option>青岛</option>
                             <option>上海</option>
                             <option>北京</option>
+
                         </select>
                     </div>
                     <div class="col-lg-1 col-sm-12">
-                        <button class="btn btn-info">查 询</button>
+                        <button class="btn btn-info" onclick="window.location='allCourse.html'">查 询</button>
                     </div>
                 </div>
             </div>
@@ -191,7 +205,7 @@
                         <li role="presentation" class="active"><a href="#a1" role="tab" data-toggle="tab">液相色谱</a></li>
                         <li role="presentation"><a href="#a2" role="tab" data-toggle="tab">离子色谱</a></li>
                         <li role="presentation"><a href="#a3" role="tab" data-toggle="tab">无机元素分析</a></li>
-                        <li role="presentation"><a href="#a4" role="tab" data-toggle="tab">气象色谱与质谱</a></li>
+                        <li role="presentation"><a href="#a4" role="tab" data-toggle="tab">气相色谱与质谱</a></li>
                         <li role="presentation"><a href="#a5" role="tab" data-toggle="tab">样品制备</a></li>
                     </ul>
                 </div>
@@ -250,7 +264,7 @@
                                     <img src="images/t3.png" />
                                 </div>
                                 <div class="text-block">
-                                    <h4><strong>在线远程培训</strong></h4>
+                                    <h4><strong>远程在线培训</strong></h4>
 
                                     <div class="list-block">
                                         <ul>
@@ -382,7 +396,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="img-block">
-                                    <img src="images/t2-1.png" />
+                                    <img src="images/t1.png" />
                                 </div>
                                 <div class="text-block">
                                     <h4><strong>进阶培训</strong></h4>
@@ -431,7 +445,7 @@
                                     <img src="images/t3.png" />
                                 </div>
                                 <div class="text-block">
-                                    <h4><strong>在线远程培训</strong></h4>
+                                    <h4><strong>远程在线培训</strong></h4>
 
                                     <div class="list-block">
                                         <ul>
@@ -518,7 +532,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="img-block">
-                                    <img src="images/t2-7.png" />
+                                    <img src="images/t7.png" />
                                 </div>
                                 <div class="text-block">
                                     <h4><strong>定制课程</strong></h4>
@@ -558,12 +572,13 @@
                             </div>
 
                         </div>
+
                     </div>
                     <div role="tabpanel" class="tab-pane" id="a3">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="img-block">
-                                    <img src="images/t3-1.png" />
+                                    <img src="images/t1.png" />
                                 </div>
                                 <div class="text-block">
                                     <h4><strong>进阶培训</strong></h4>
@@ -612,7 +627,7 @@
                                     <img src="images/t3.png" />
                                 </div>
                                 <div class="text-block">
-                                    <h4><strong>在线远程培训</strong></h4>
+                                    <h4><strong>远程在线培训</strong></h4>
 
                                     <div class="list-block">
                                         <ul>
@@ -654,7 +669,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="img-block">
-                                    <img src="images/t2-3.png" />
+                                    <img src="images/t5.png" />
                                 </div>
                                 <div class="text-block">
                                     <h4><strong>职业资格培训课程</strong></h4>
@@ -744,7 +759,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="img-block">
-                                    <img src="images/t4-1.png" />
+                                    <img src="images/t1.png" />
                                 </div>
                                 <div class="text-block">
                                     <h4><strong>进阶培训</strong></h4>
@@ -793,7 +808,7 @@
                                     <img src="images/t3.png" />
                                 </div>
                                 <div class="text-block">
-                                    <h4><strong>在线远程培训</strong></h4>
+                                    <h4><strong>远程在线培训</strong></h4>
 
                                     <div class="list-block">
                                         <ul>
@@ -856,7 +871,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="img-block">
-                                    <img src="images/t2-4.png" />
+                                    <img src="images/t6.png" />
                                 </div>
                                 <div class="text-block">
                                     <h4><strong>实验室综合管理</strong></h4>
@@ -925,7 +940,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="img-block">
-                                    <img src="images/t5-1.png" />
+                                    <img src="images/t1.png" />
                                 </div>
                                 <div class="text-block">
                                     <h4><strong>进阶培训</strong></h4>
@@ -974,7 +989,7 @@
                                     <img src="images/t3.png" />
                                 </div>
                                 <div class="text-block">
-                                    <h4><strong>在线远程培训</strong></h4>
+                                    <h4><strong>远程在线培训</strong></h4>
 
                                     <div class="list-block">
                                         <ul>
@@ -1037,7 +1052,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="img-block">
-                                    <img src="images/t2-2.png" />
+                                    <img src="images/t6.png" />
                                 </div>
                                 <div class="text-block">
                                     <h4><strong>实验室综合管理</strong></h4>
@@ -1111,9 +1126,11 @@
                     <li><a href="support-3.html">培训课表</a></li>
                     <li><a href="credentials-query.html">证书查询</a></li>
                     <li><a href="course-list-3.html">教学视频</a></li>
+                    <li><a>培训DIY</a></li>
                     <li><a href="support-1.html">培训意向</a></li>
                     <li><a>新闻动态</a></li>
                     <li><a href="course-list-5.html">空中教室</a></li>
+                    <li><a>常见问题解答</a></li>
                 </ul>
             </div>
         </div>

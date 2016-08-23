@@ -32,25 +32,72 @@ form {
     padding: 50px 200px;
 }
 
-    form > .input-group {
+    form .form-block {
+        width:100%;
+        border:1px solid #bdbdbd;
+    }
+
+.form-block > .form-header {
+    padding:15px;
+    border-bottom:1px solid #bdbdbd;
+    width:100%;
+    height:58px;
+}
+
+.form-header > div:first-child {
+    float: left;
+}
+
+    .form-header > div:first-child > span {
+        font-size: 24px;
+    }
+.form-header > button {
+    float: right;
+    border: none;
+    padding: 10px 15px;
+    background: #3b6ec9;
+    color: white;
+}
+    
+.form-block > .form-body {
+    width:100%;
+    padding:15px;
+    height:600px;
+}
+.report-user .remove-user {
+    float: right;
+    border-radius: 50%;
+    border: none;
+    width: 24px;
+    height: 24px;
+    padding: 0px 6px;
+    background: #ee3135;
+    color: white;
+    font-size: 16px;
+}
+
+    form  .input-group {
         padding-bottom: 15px;
         padding-top: 15px;
     }
+    form .report-user .input-group {
+        width:100%;
+    }
 
-        form > .input-group > .input-group-addon {
+        form  .input-group > .input-group-addon {
             background: white;
         }
 
-        form > .input-group > .form-control {
+        form  .input-group > .form-control {
             height: 50px;
         }
 
 
         
-    form > .button-group  {
+    form .button-group  {
         padding-top:40px;
     }
-    form > .button-group > button {
+    form .button-group > button {
         padding:15px 40px;
         background:#ef2d35;
         border:0px;

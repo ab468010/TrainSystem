@@ -62,7 +62,7 @@ h1, h2, h3, h4 {
 
 #wrap > .container {
     margin-top: 20px;
-    padding:0px 60px;
+    padding:0px 20px;
 }
 
 #wrap > .container-fluid {
@@ -183,6 +183,9 @@ h1 {
     text-decoration:none;
     cursor:pointer;
 }
+.left-course-list {
+    padding-bottom:20px;
+}
 .left-course-list > ul > li:hover,
 .left-course-list > ul > li.active,
 .left-course-list > ul > li:active {
@@ -193,11 +196,16 @@ h1 {
     padding-bottom:10px;
 }
 
+
+
 .left-block > .module-blcok > a > img {
+    width:100%;
+    height:80px;
+}
+.left-block > .module-blcok:first-child > a > img {
     width:100%;
     height:100px;
 }
-
 
 /*Right Block*/
 .right-block > .context-header {
@@ -212,7 +220,16 @@ h1 {
     padding:35px 0px;
     font-size:20px;
 }
-
+.context > .description {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.description > div {
+    font-size: 14px; line-height: 28px; font-family: 微软雅黑;
+}
+.description > div:first-child {
+    color: #337ab7; font-size: 20px; padding-bottom: 20px;
+}
 .right-block > .context-header > .path {
     float:right;
     color:white;

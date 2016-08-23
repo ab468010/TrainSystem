@@ -1,0 +1,113 @@
+﻿body {
+}
+
+.addr-list {
+    width: 100%;
+    height: 400px;
+    padding-bottom: 10px;
+}
+
+    .addr-list > div:nth-child(n) {
+        width: 43%;
+        float: left;
+        height: 100px;
+    }
+
+    .addr-list > div:nth-child(2n) {
+        width: 43%;
+        float: right;
+        height: 100px;
+    }
+
+    .addr-list > div > div > p {
+        padding-top: 15px;
+        line-height: 18px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .addr-list > div > div > div:first-child {
+        font-size: 12px;
+        height: 12px;
+        font-weight: bold;
+        padding: 0px 15px;
+        line-height: none;
+        border-left: 4px solid #4cff00;
+    }
+
+/*联系我们*/
+.contact-us {
+    padding-top: 0px;
+    width: 100%;
+}
+
+    .contact-us > .block-title {
+        padding-bottom: 10px;
+    }
+
+    .contact-us > .block-body {
+        padding: 70px 10px;
+        background: #f0f0f0;
+        border: 1px solid #bdbdbd;
+        height: 350px;
+        width: 100%;
+    }
+
+
+        .contact-us > .block-body > .contact-box {
+            border: 1px solid #bdbdbd;
+            height: 250px;
+            background: #ffffff;
+            width: 460px;
+            float: left;
+        }
+
+        .contact-us > .block-body > .button-box {
+            width: 195px;
+            float: left;
+            padding-left: 30px;
+            padding-top: 50px;
+        }
+
+
+            .contact-us > .block-body > .button-box > div {
+                padding: 20px 0px;
+            }
+
+            .contact-us > .block-body > .button-box button {
+                border: 0px;
+                padding: 5px 45px;
+                color: white;
+                font-size: 18px;
+                font-family: 宋体;
+            }
+
+.contact-box > div:first-child {
+    border-bottom: 1px solid #bdbdbd;
+    height: 30px;
+    background: #f3f3f3;
+}
+
+.contact-box > .info-block {
+    padding: 20px 30px;
+}
+
+.info-block > .phone-block > img:first-child {
+    float: left;
+}
+
+.info-block > .phone-block > div {
+    padding-left: 120px;
+    font-size: 18px;
+    font-family: 宋体;
+}
+
+    .info-block > .phone-block > div > div {
+        padding: 7px;
+    }
+
+.block-footer {
+    border: 1px solid #bdbdbd;
+    text-align: center;
+    padding: 10px 0px;
+}
