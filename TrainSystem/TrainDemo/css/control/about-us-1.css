@@ -32,7 +32,7 @@
         font-weight: bold;
         padding: 0px 15px;
         line-height: none;
-        border-left: 4px solid #4cff00;
+        border-left: 12px solid #4cff00;
     }
 
 /*联系我们*/
@@ -58,29 +58,10 @@
             border: 1px solid #bdbdbd;
             height: 250px;
             background: #ffffff;
-            width: 460px;
+            width: 100%;
             float: left;
         }
 
-        .contact-us > .block-body > .button-box {
-            width: 195px;
-            float: left;
-            padding-left: 30px;
-            padding-top: 50px;
-        }
-
-
-            .contact-us > .block-body > .button-box > div {
-                padding: 20px 0px;
-            }
-
-            .contact-us > .block-body > .button-box button {
-                border: 0px;
-                padding: 5px 45px;
-                color: white;
-                font-size: 18px;
-                font-family: 宋体;
-            }
 
 .contact-box > div:first-child {
     border-bottom: 1px solid #bdbdbd;

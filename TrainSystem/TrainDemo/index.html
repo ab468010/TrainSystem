@@ -20,20 +20,22 @@
 <body style="overflow-x:hidden">
 
     <div id="wrap">
-        <header class="mastered">
+        <header class="mastered"  style="height:70px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div style="float:left;padding:10px 0px;">
                         <h4><a>
-                            <img src="images/logo-cropped.gif" style="vertical-align: bottom" /></a><span style="margin-left: 20px; vertical-align: bottom; font: small">赛默飞中国技术培训中心</span></h4>
+                            <img src="images/logo-cropped.gif"  /></a><span style="margin-left: 20px; vertical-align: bottom; font: small">赛默飞中国技术培训中心</span></h4>
                     </div>
-                    <div class="col-sm-4 col-sm-offset-2">
-                        <div style="float: left; width: 250px; padding-top: 20px">
-                            <h6><span class="glyphicon glyphicon-earphone" style="color: #bdbdbd; font-size: 14px"></span>400 - 650 - 5118</h6>
-                            <h6><span class="glyphicon glyphicon-envelope" style="color: #bdbdbd; font-size: 14px"></span>traininng.china@thermofisher.com</h6>
+                    <div style="float:right;">
+
+                        <div style="float: left; width: 250px; vertical-align:bottom;padding-top:40px;">
+                            <span style="font-size:14px;vertical-align:bottom"><span class="glyphicon glyphicon-earphone" style="color: #bdbdbd; font-size: 14px"></span>400 - 650 - 5118</span><br />
+                            <span style="font-size:14px;"><span class="glyphicon glyphicon-envelope" style="color: #bdbdbd; font-size: 14px"></span>traininng.china@thermofisher.com</span>
+
                         </div>
-                        <div style="float: left; width: 40px">
-                            <img src="images/Tc.jpg" style="width: 80px;" /></div>
+                        <div style="float: right; width: 40px">
+                            <img src="images/Tc.png" style="width: 80px;" /></div>
                     </div>
                 </div>
             </div>
@@ -53,7 +55,7 @@
                     <ul class="nav navbar-nav nav-justified">
                         <li><a href="index.html">首页</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">产品培训</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >产品培训</a>
                             <ul class="dropdown-menu">
                                 <li><a href="course-list.html">进阶培训</a></li>
                                 <li><a href="course-list-2.html">高级培训</a></li>
@@ -62,20 +64,20 @@
                                 <li><a href="course-list-4.html">行业应用培训</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
+                        <li class="dropdown disabled">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">高级应用</a>
                             <ul class="dropdown-menu">
-                                <li><a href="advanced-1.html">行业标准应用</a></li>
-                                <li><a href="advanced-2.html">最新热点应用</a></li>
-                                <li><a href="advanced-3.html">定制方法开发</a></li>
-                                <li><a href="advanced-4.html">实验室综合管理</a></li>
+                                <li class="disabled"><a href="#">行业标准应用</a><!--<a href="advanced-1.html">行业标准应用</a>--></li>
+                                <li class="disabled"><a href="#">最新热点应用</a><!--<a href="advanced-2.html">最新热点应用</a>--></li>
+                                <li class="disabled"><a href="#">定制方法开发</a><!--<a href="advanced-3.html">定制方法开发</a>--></li>
+                                <li class="disabled"><a href="#">实验室综合管理</a><!--<a href="advanced-4.html">实验室综合管理</a>--></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">人才开发</a>
                             <ul class="dropdown-menu">
-                                <li><a href="talents-1.html">自选培训服务包</a></li>
-                                <li><a href="talents-2.html">人才实训项目</a></li>
+                                <li class="disabled"><a href="#">自选培训服务包</a><!--<a href="talents-1.html">自选培训服务包</a>--></li>
+                                <li class="disabled"><a href="#">人才实训项目</a><!--<a href="talents-2.html">人才实训项目</a>--></li>
                                 <li><a href="talents-3.html">大学生实习培训</a></li>
                             </ul>
                         </li>
@@ -172,25 +174,23 @@
                     </div>
                     <div class="col-lg-3 col-sm-12">
                         <select class="selectpicker">
-                            <option>远程在线培训</option>
-                            <option>行业应用培训</option>
-                            <option>大学生培训</option>
                             <option>进阶培训</option>
                             <option>高级培训</option>
-
+                            <option>行业应用培训</option>
+                            <option>远程在线培训</option>
+                            <option>大学生培训</option>
                         </select>
                     </div>
 
                     <div class="col-lg-3 col-sm-12">
                         <select class="selectpicker">
+                            <option>上海</option>
+                            <option>北京</option>
                             <option>成都</option>
                             <option>广州</option>
                             <option>昆明</option>
                             <option>西安</option>
                             <option>青岛</option>
-                            <option>上海</option>
-                            <option>北京</option>
-
                         </select>
                     </div>
                     <div class="col-lg-1 col-sm-12">
@@ -198,20 +198,17 @@
                     </div>
                 </div>
             </div>
-
+            <div class="course-class">
+                <ul>
+                    <li><a href="allCourse.html">液相色谱</a></li>
+                    <li><a href="allCourse.html">离子色谱</a></li>
+                    <li><a href="allCourse.html">无机元素分析</a></li>
+                    <li><a href="allCourse.html">气相色谱与质谱</a></li>
+                    <li><a href="allCourse.html">样品制备</a></li>
+                </ul>
+            </div>
             <div class="course">
-                <div class="tabs-list">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#a1" role="tab" data-toggle="tab">液相色谱</a></li>
-                        <li role="presentation"><a href="#a2" role="tab" data-toggle="tab">离子色谱</a></li>
-                        <li role="presentation"><a href="#a3" role="tab" data-toggle="tab">无机元素分析</a></li>
-                        <li role="presentation"><a href="#a4" role="tab" data-toggle="tab">气相色谱与质谱</a></li>
-                        <li role="presentation"><a href="#a5" role="tab" data-toggle="tab">样品制备</a></li>
-                    </ul>
-                </div>
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="a1">
+                    <div class="tab-pane" id="a1">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="img-block">
@@ -277,7 +274,7 @@
                                     </div>
                                 </div>
                                 <div class="bottom-right-position">
-                                    <a href="course-list-3.html">点击报名 ></a>
+                                    <a href="course-list-online.html">点击报名 ></a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -298,7 +295,7 @@
                                     </div>
                                 </div>
                                 <div class="bottom-right-position">
-                                    <a href="support-1.html">点击报名 ></a>
+                                    <a href="course-list-4.html">点击报名 ></a>
                                 </div>
                             </div>
 
@@ -322,7 +319,8 @@
                                     </div>
                                 </div>
                                 <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
+                                    <!--<a href="course-list.html">点击报名 ></a>-->
+
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -343,7 +341,7 @@
                                     </div>
                                 </div>
                                 <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
+                                    <!--<a href="course-list.html">点击报名 ></a>-->
                                 </div>
                             </div>
 
@@ -366,7 +364,7 @@
                                     </div>
                                 </div>
                                 <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
+                                    <a href="locale-course.html">点击报名 ></a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -386,738 +384,13 @@
                                     </div>
                                 </div>
                                 <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
+                                    <!--<a href="course-list.html">点击报名 ></a>-->
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="a2">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t1.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>进阶培训</strong></h4>
 
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>基本工作原理</li>
-                                            <li>硬件基本维护</li>
-                                            <li>实验条件优化</li>
-                                            <li>软件操作</li>
-                                            <li>硬件基本维护</li>
-                                            <li>入门级升到中级水平</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t2.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>高级培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>软件高级操作</li>
-                                            <li>仪器故障诊断</li>
-                                            <li>实验条件优化</li>
-                                            <li>硬件高级维护</li>
-                                            <li>排查常见故障</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list-2.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t3.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>远程在线培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>基本工作原理</li>
-                                            <li>软件操作</li>
-                                            <li>硬件基本维护</li>
-                                            <li>节省差旅费用</li>
-                                            <li>节省旅途耗时</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list-3.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t4.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>行业应用培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>方法解读</li>
-                                            <li>样品前处理</li>
-                                            <li>方法优化</li>
-                                            <li>量身定制</li>
-                                            <li>行业应用预览</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="support-1.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t5.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>职业资格培训课程</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>岗位资质认定</li>
-                                            <li>熟悉行业规范</li>
-                                            <li>相关行业方法</li>
-                                            <li>人才质量控制</li>
-                                            <li>获得国家资质证书</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t6.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>实验室综合管理</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>实验室运营效率</li>
-                                            <li>质量管理</li>
-                                            <li>资产管理</li>
-                                            <li>认证合规</li>
-                                            <li>LIMS软件</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t7.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>定制课程</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>量身定制</li>
-                                            <li>应用支持</li>
-                                            <li>高效培训</li>
-                                            <li>上门服务</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t8.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>人才开发</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>自选培训服务包</li>
-                                            <li>专业人才快速培养</li>
-                                            <li>降低质量风险</li>
-                                            <li>减少人力成本</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="a3">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t1.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>进阶培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>基本工作原理</li>
-                                            <li>硬件基本维护</li>
-                                            <li>实验条件优化</li>
-                                            <li>软件操作</li>
-                                            <li>硬件基本维护</li>
-                                            <li>入门级升到中级水平</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t2.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>高级培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>软件高级操作</li>
-                                            <li>仪器故障诊断</li>
-                                            <li>实验条件优化</li>
-                                            <li>硬件高级维护</li>
-                                            <li>排查常见故障</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list-2.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t3.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>远程在线培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>基本工作原理</li>
-                                            <li>软件操作</li>
-                                            <li>硬件基本维护</li>
-                                            <li>节省差旅费用</li>
-                                            <li>节省旅途耗时</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list-3.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t4.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>行业应用培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>方法解读</li>
-                                            <li>样品前处理</li>
-                                            <li>方法优化</li>
-                                            <li>量身定制</li>
-                                            <li>行业应用预览</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="support-1.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t5.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>职业资格培训课程</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>岗位资质认定</li>
-                                            <li>熟悉行业规范</li>
-                                            <li>相关行业方法</li>
-                                            <li>人才质量控制</li>
-                                            <li>获得国家资质证书</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t6.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>实验室综合管理</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>实验室运营效率</li>
-                                            <li>质量管理</li>
-                                            <li>资产管理</li>
-                                            <li>认证合规</li>
-                                            <li>LIMS软件</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t7.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>定制课程</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>量身定制</li>
-                                            <li>应用支持</li>
-                                            <li>高效培训</li>
-                                            <li>上门服务</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t8.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>人才开发</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>自选培训服务包</li>
-                                            <li>专业人才快速培养</li>
-                                            <li>降低质量风险</li>
-                                            <li>减少人力成本</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="a4">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t1.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>进阶培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>基本工作原理</li>
-                                            <li>硬件基本维护</li>
-                                            <li>实验条件优化</li>
-                                            <li>软件操作</li>
-                                            <li>硬件基本维护</li>
-                                            <li>入门级升到中级水平</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t2.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>高级培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>软件高级操作</li>
-                                            <li>仪器故障诊断</li>
-                                            <li>实验条件优化</li>
-                                            <li>硬件高级维护</li>
-                                            <li>排查常见故障</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list-2.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t3.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>远程在线培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>基本工作原理</li>
-                                            <li>软件操作</li>
-                                            <li>硬件基本维护</li>
-                                            <li>节省差旅费用</li>
-                                            <li>节省旅途耗时</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list-3.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t4.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>行业应用培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>方法解读</li>
-                                            <li>样品前处理</li>
-                                            <li>方法优化</li>
-                                            <li>量身定制</li>
-                                            <li>行业应用预览</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="support-1.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t5.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>职业资格培训课程</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>岗位资质认定</li>
-                                            <li>熟悉行业规范</li>
-                                            <li>相关行业方法</li>
-                                            <li>人才质量控制</li>
-                                            <li>获得国家资质证书</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t6.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>实验室综合管理</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>实验室运营效率</li>
-                                            <li>质量管理</li>
-                                            <li>资产管理</li>
-                                            <li>认证合规</li>
-                                            <li>LIMS软件</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t7.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>定制课程</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>量身定制</li>
-                                            <li>应用支持</li>
-                                            <li>高效培训</li>
-                                            <li>上门服务</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t8.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>人才开发</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>自选培训服务包</li>
-                                            <li>专业人才快速培养</li>
-                                            <li>降低质量风险</li>
-                                            <li>减少人力成本</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="a5">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t1.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>进阶培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>基本工作原理</li>
-                                            <li>硬件基本维护</li>
-                                            <li>实验条件优化</li>
-                                            <li>软件操作</li>
-                                            <li>硬件基本维护</li>
-                                            <li>入门级升到中级水平</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t2.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>高级培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>软件高级操作</li>
-                                            <li>仪器故障诊断</li>
-                                            <li>实验条件优化</li>
-                                            <li>硬件高级维护</li>
-                                            <li>排查常见故障</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list-2.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t3.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>远程在线培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>基本工作原理</li>
-                                            <li>软件操作</li>
-                                            <li>硬件基本维护</li>
-                                            <li>节省差旅费用</li>
-                                            <li>节省旅途耗时</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list-3.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t4.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>行业应用培训</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>方法解读</li>
-                                            <li>样品前处理</li>
-                                            <li>方法优化</li>
-                                            <li>量身定制</li>
-                                            <li>行业应用预览</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="support-1.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t5.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>职业资格培训课程</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>岗位资质认定</li>
-                                            <li>熟悉行业规范</li>
-                                            <li>相关行业方法</li>
-                                            <li>人才质量控制</li>
-                                            <li>获得国家资质证书</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t6.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>实验室综合管理</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>实验室运营效率</li>
-                                            <li>质量管理</li>
-                                            <li>资产管理</li>
-                                            <li>认证合规</li>
-                                            <li>LIMS软件</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t7.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>定制课程</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>量身定制</li>
-                                            <li>应用支持</li>
-                                            <li>高效培训</li>
-                                            <li>上门服务</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="img-block">
-                                    <img src="images/t8.png" />
-                                </div>
-                                <div class="text-block">
-                                    <h4><strong>人才开发</strong></h4>
-
-                                    <div class="list-block">
-                                        <ul>
-                                            <li>自选培训服务包</li>
-                                            <li>专业人才快速培养</li>
-                                            <li>降低质量风险</li>
-                                            <li>减少人力成本</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-right-position">
-                                    <a href="course-list.html">点击报名 ></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="container-fluid q-link">
@@ -1126,11 +399,11 @@
                     <li><a href="support-3.html">培训课表</a></li>
                     <li><a href="credentials-query.html">证书查询</a></li>
                     <li><a href="course-list-3.html">教学视频</a></li>
-                    <li><a>培训DIY</a></li>
-                    <li><a href="support-1.html">培训意向</a></li>
+                    <li><a href="support-5.html">培训DIY</a></li>
+                    <li><a href="course-list.html">培训报名</a></li>
                     <li><a>新闻动态</a></li>
                     <li><a href="course-list-5.html">空中教室</a></li>
-                    <li><a>常见问题解答</a></li>
+                    <li><a href="about-us-3.html">常见问题解答</a></li>
                 </ul>
             </div>
         </div>

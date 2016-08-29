@@ -222,7 +222,7 @@ h1 {
 }
 .context > .description {
     padding-top:20px;
-    padding-bottom:20px;
+    padding-bottom:10px;
 }
 .description > div {
     font-size: 14px; line-height: 28px; font-family: 微软雅黑;
