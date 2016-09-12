@@ -1,0 +1,183 @@
+﻿body {
+}
+
+
+/*Full Img Area*/
+
+
+
+.box {
+    height: 400px;
+    width: 100%;
+    z-index: 999;
+    position: relative;
+}
+
+    .box img {
+        height: 400px;
+        width: 100%;
+    }
+
+    .box > .drag {
+        position: absolute;
+        background: inherit;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100px;
+        overflow: hidden;
+    }
+
+        .box > .drag > .blur {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            filter: url(blur-4px.svg#blur);
+            -webkit-filter: blur(4px);
+            -moa-filter: blur(4px);
+            filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);
+        }
+
+        .box > .drag > .mask {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(255,255,255,.1);
+            filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#34000000,endColorStr=#34000000);
+            color: #fff;
+            font-size: 14px;
+            text-indent: 10px;
+            height: 100px;
+            padding-left:200px;
+        }
+
+.mask > div {
+    margin-top: 30px;
+    width: 350px;
+    height: 100%;
+    padding-left: 20px;
+    float:left;
+}
+
+    .mask > div > div:first-child {
+        color: #666666;
+        font-size: 18px;
+        font-family: 微软雅黑;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .mask > div > div:last-child {
+        color: #666666;
+        font-size: 14px;
+        margin-top: 15px;
+        font-family: 微软雅黑;
+        font-weight: bold;
+    }
+
+
+/*Full Img Area*/
+
+/*Left-Area Start*/
+.left-area {
+    padding-top:30px;
+}
+
+.left-area > div:first-child > span {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 微软雅黑;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #777777;
+}
+
+
+
+
+
+
+.catalog {
+    padding-top: 50px;
+}
+
+
+
+    .catalog > ul > li > a {
+        font-size: 14px;
+        font-family: 微软雅黑;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        padding-left: 50px;
+    }
+
+
+        .catalog > ul > li > a span.glyphicon-menu-hamburger {
+            border-radius: 50%;
+            color: white;
+            background: gray;
+            font-size: 12px;
+            padding: 5px 5px;
+            width: 21px;
+            height: 21px;
+        }
+
+    .catalog > ul > li > ul > li {
+        padding-left: 70px;
+    }
+
+
+    .catalog > ul > li {
+        padding-bottom: 35px;
+    }
+
+
+        .catalog > ul > li > ul > li > a {
+            font-size: 12px;
+            font-family: 宋体;
+            letter-spacing: 1px;
+            color: gray;
+            text-decoration: none;
+        }
+/*Left-Area End*/
+
+/*Right-Area Start*/
+
+
+.right-area {
+}
+
+
+
+.helper {
+    padding: 60px 30px;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+    .helper > p {
+        padding-top: 20px;
+        vertical-align: bottom;
+    }
+
+        .helper > p > span {
+            vertical-align: bottom;
+            font-size: 13px;
+            font-family: 微软雅黑;
+        }
+
+ .description {
+    background: #f0f0f0;
+    margin-top: 40px;
+    padding: 30px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: 微软雅黑;
+}
+
+/*Right-Area End*/

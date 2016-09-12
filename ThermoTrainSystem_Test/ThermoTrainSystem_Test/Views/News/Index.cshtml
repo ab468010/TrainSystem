@@ -1,0 +1,41 @@
+﻿@using ThermoTrainSystem_Test.ViewModels
+@model NewsListViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+</head>
+<body>
+    
+    <div> 
+        <table>
+            <thead>
+                <tr>
+                    <td>NewsId</td>
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (NewsViewModel news in Model.NewsArray)
+                {
+                <tr>
+                    <td>@news.NewsId</td>
+                    <td>@news.Name</td>
+                    <td>@news.Description</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+
+        <a href="/News/Add">创建</a>
+    </div>
+</body>
+</html>

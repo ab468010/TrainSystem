@@ -1,0 +1,70 @@
+﻿@section AddToHead{
+@if (IsSectionDefined("CssBlock"))
+{
+    @RenderSection("CssBlock")
+}
+}
+@using TrainSystem.Utilities
+@model TrainSystem.ViewModel.BasicCourseModel
+@section TailJS{
+    @if (IsSectionDefined("JsBlcok"))
+    {
+        @RenderSection("JsBlcok")
+    }
+}
+@{
+    ViewBag.Title = "Context";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<div class="container">
+    <div class="col-lg-3 left-block">
+        <div class="module-blcok">
+            <a href='@Url.Action("BasicTrain", "Course")'>
+                <img src='@Url.Content("~/images/L1.png")' />
+            </a>
+        </div>
+        <div class="left-course-list">
+            <ul class="list-group">
+
+                <li class="list-group-item @Html.IsActive("Course", "BasicTrain")">@Html.ActionLink("进阶培训", "BasicTrain", "Course")</li>
+                <li class="list-group-item @Html.IsActive("Course", "AdvancedTrain")">@Html.ActionLink("高级培训", "AdvancedTrain", "Course")</li>
+                <li class="list-group-item @Html.IsActive("OnlineCourse", "OnlineTrain")">@Html.ActionLink("远程在线培训", "OnlineTrain", "OnlineCourse")</li>
+                <li class="list-group-item @Html.IsActive("Course", "ApplicationTrain")">@Html.ActionLink("行业应用培训", "ApplicationTrain", "Course")</li>
+            </ul>
+        </div>
+        <div class="module-blcok">
+            <a href='@Url.Action("TrainSchedule", "Support")'>
+                <img src='@Url.Content("~/images/L2.png")' />
+            </a>
+        </div>
+        <div class="module-blcok">
+            <a href='@Url.Action("Credentials", "Support")'>
+                <img src='@Url.Content("~/images/L3.png")' />
+            </a>
+        </div>
+        <div class="module-blcok">
+            <a href='@Url.Action("OnlineTrain", "OnlineCourse")'>
+                <img src='@Url.Content("~/images/L4.png")' />
+            </a>
+        </div>
+        <div class="module-blcok">
+            <a href='@Url.Action("TrainIntention", "Support")'>
+                <img src='@Url.Content("~/images/L5.png")' />
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-9 right-block">
+        <div class="context-header">
+            <div class="subject">
+                <span><span class="glyphicon glyphicon-tags"></span><span>@Model.ModelName</span></span>
+            </div>
+            <div class="path">
+                <span>当前位置： @Model.Path </span>
+            </div>
+        </div>
+        <div class="context">
+            @this.RenderBody()
+        </div>
+    </div>
+</div>
+
